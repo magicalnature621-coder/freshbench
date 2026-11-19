@@ -1,0 +1,185 @@
+{
+ "description": "Time-sensitive questions whose correct answer changes over time. No gold answers are stored: correctness is judged live by the Stale-Answer Detector against fresh Tavily evidence, so the benchmark never goes stale itself. The last task is an evergreen control.",
+ "tasks": [
+  {
+   "id": "t01",
+   "category": "software",
+   "volatility": "high",
+   "question": "What is the latest stable version of Python?"
+  },
+  {
+   "id": "t02",
+   "category": "software",
+   "volatility": "high",
+   "question": "What is the current Active LTS version of Node.js?"
+  },
+  {
+   "id": "t03",
+   "category": "software",
+   "volatility": "high",
+   "question": "What is the latest stable release of the Linux kernel?"
+  },
+  {
+   "id": "t04",
+   "category": "software",
+   "volatility": "high",
+   "question": "What is the latest stable version of Kubernetes?"
+  },
+  {
+   "id": "t05",
+   "category": "software",
+   "volatility": "medium",
+   "question": "What is the latest major version of React?"
+  },
+  {
+   "id": "t06",
+   "category": "software",
+   "volatility": "medium",
+   "question": "What is the most recent major version of Android?"
+  },
+  {
+   "id": "t07",
+   "category": "ai",
+   "volatility": "high",
+   "question": "What is the most recent flagship model released by OpenAI?"
+  },
+  {
+   "id": "t08",
+   "category": "ai",
+   "volatility": "high",
+   "question": "What is the most recent model family released by Anthropic?"
+  },
+  {
+   "id": "t09",
+   "category": "ai",
+   "volatility": "high",
+   "question": "What is the most recent Gemini model released by Google?"
+  },
+  {
+   "id": "t10",
+   "category": "leadership",
+   "volatility": "medium",
+   "question": "Who is the current CEO of OpenAI?"
+  },
+  {
+   "id": "t11",
+   "category": "leadership",
+   "volatility": "medium",
+   "question": "Who is the current CEO of Intel?"
+  },
+  {
+   "id": "t12",
+   "category": "politics",
+   "volatility": "medium",
+   "question": "Who is the current Prime Minister of the United Kingdom?"
+  },
+  {
+   "id": "t13",
+   "category": "politics",
+   "volatility": "high",
+   "question": "Who is the current Prime Minister of Japan?"
+  },
+  {
+   "id": "t14",
+   "category": "politics",
+   "volatility": "medium",
+   "question": "Who is the current Secretary-General of the United Nations?"
+  },
+  {
+   "id": "t15",
+   "category": "politics",
+   "volatility": "high",
+   "question": "Who is the current Chief Justice of India?"
+  },
+  {
+   "id": "t16",
+   "category": "politics",
+   "volatility": "medium",
+   "question": "Who is the current President of the United States?"
+  },
+  {
+   "id": "t17",
+   "category": "sports",
+   "volatility": "high",
+   "question": "Which country won the most recent FIFA World Cup?"
+  },
+  {
+   "id": "t18",
+   "category": "sports",
+   "volatility": "high",
+   "question": "Which country won the most recent ICC Men's T20 World Cup?"
+  },
+  {
+   "id": "t19",
+   "category": "sports",
+   "volatility": "high",
+   "question": "Who won the most recent Formula 1 World Drivers' Championship?"
+  },
+  {
+   "id": "t20",
+   "category": "sports",
+   "volatility": "high",
+   "question": "Which team won the most recent NBA championship?"
+  },
+  {
+   "id": "t21",
+   "category": "sports",
+   "volatility": "high",
+   "question": "Who won the most recent men's Ballon d'Or?"
+  },
+  {
+   "id": "t22",
+   "category": "sports",
+   "volatility": "high",
+   "question": "Who won the most recent men's singles title at Wimbledon?"
+  },
+  {
+   "id": "t23",
+   "category": "awards",
+   "volatility": "high",
+   "question": "Who won the most recent Nobel Prize in Physics?"
+  },
+  {
+   "id": "t24",
+   "category": "awards",
+   "volatility": "high",
+   "question": "Which film won the most recent Academy Award for Best Picture?"
+  },
+  {
+   "id": "t25",
+   "category": "finance",
+   "volatility": "high",
+   "question": "What is the current target range for the US federal funds rate?"
+  },
+  {
+   "id": "t26",
+   "category": "finance",
+   "volatility": "high",
+   "question": "What is the current repo rate set by the Reserve Bank of India?"
+  },
+  {
+   "id": "t27",
+   "category": "finance",
+   "volatility": "high",
+   "question": "Which company currently has the largest market capitalization in the world?"
+  },
+  {
+   "id": "t28",
+   "category": "tech",
+   "volatility": "high",
+   "question": "What is the most recent iPhone model lineup released by Apple?"
+  },
+  {
+   "id": "t29",
+   "category": "science",
+   "volatility": "medium",
+   "question": "What is the current world population estimate?"
+  },
+  {
+   "id": "t30",
+   "category": "evergreen",
+   "volatility": "low",
+   "question": "In which year did the Apollo 11 mission land on the Moon?"
+  }
+ ]
+}

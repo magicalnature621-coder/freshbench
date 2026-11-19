@@ -1,0 +1,14 @@
+# Bifrost LLM gateway (by Maxim AI). FreshBench sends every LLM call through it.
+#   1) python -m freshbench bifrost-config   -> writes bifrost/config.json from your .env keys
+#   2) docker compose up -d                  -> gateway on http://localhost:8080 (web UI + logs there too)
+services:
+  bifrost:
+    image: maximhq/bifrost:latest
+    container_name: freshbench-bifrost
+    user: "0:0"            # lets Bifrost write config.db / logs.db into ./bifrost on any host
+    ports:
+      - "8080:8080"
+    env_file: .env         # provider keys are referenced as env.GROQ_API_KEY etc. in config.json
+    volumes:
+      - ./bifrost:/app/data
+    restart: unless-stopped

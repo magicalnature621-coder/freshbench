@@ -1,0 +1,80 @@
+{
+ "description": "Detector calibration set. 'stale' items were true in the past but were superseded before 2026 (verifiable on the open web). 'evergreen' items can never go stale. Used by `python -m freshbench calibrate` to measure the detector's precision/recall on staleness.",
+ "items": [
+  {
+   "question": "Who is the CEO of Twitter?",
+   "answer": "The CEO of Twitter is Jack Dorsey.",
+   "label": "stale"
+  },
+  {
+   "question": "Who is the Prime Minister of the United Kingdom?",
+   "answer": "The UK Prime Minister is Boris Johnson.",
+   "label": "stale"
+  },
+  {
+   "question": "What is the latest version of Python?",
+   "answer": "The latest version of Python is Python 3.9.",
+   "label": "stale"
+  },
+  {
+   "question": "Who won the most recent FIFA World Cup?",
+   "answer": "France won the most recent FIFA World Cup, in 2018.",
+   "label": "stale"
+  },
+  {
+   "question": "Who is the President of the United States?",
+   "answer": "Barack Obama is the current President of the United States.",
+   "label": "stale"
+  },
+  {
+   "question": "What is the latest iPhone?",
+   "answer": "The latest iPhone is the iPhone 13.",
+   "label": "stale"
+  },
+  {
+   "question": "Who is the CEO of Intel?",
+   "answer": "Bob Swan is the CEO of Intel.",
+   "label": "stale"
+  },
+  {
+   "question": "Who is the Secretary-General of the United Nations?",
+   "answer": "Ban Ki-moon is the UN Secretary-General.",
+   "label": "stale"
+  },
+  {
+   "question": "What is the latest major version of React?",
+   "answer": "The latest major version of React is React 17.",
+   "label": "stale"
+  },
+  {
+   "question": "Who holds the men's Ballon d'Or?",
+   "answer": "Luka Modric is the reigning Ballon d'Or winner.",
+   "label": "stale"
+  },
+  {
+   "question": "When did Apollo 11 land on the Moon?",
+   "answer": "Apollo 11 landed on the Moon in July 1969.",
+   "label": "evergreen"
+  },
+  {
+   "question": "What is the boiling point of water at sea level?",
+   "answer": "Water boils at 100 degrees Celsius at sea level.",
+   "label": "evergreen"
+  },
+  {
+   "question": "Who wrote Pride and Prejudice?",
+   "answer": "Jane Austen wrote Pride and Prejudice.",
+   "label": "evergreen"
+  },
+  {
+   "question": "What is the capital of Japan?",
+   "answer": "The capital of Japan is Tokyo.",
+   "label": "evergreen"
+  },
+  {
+   "question": "Who painted the Mona Lisa?",
+   "answer": "Leonardo da Vinci painted the Mona Lisa.",
+   "label": "evergreen"
+  }
+ ]
+}

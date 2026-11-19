@@ -1,0 +1,29 @@
+{
+  "description": "FICTIONAL world used only by simulation mode (FRESHBENCH_SIMULATE=1) to exercise the full pipeline offline without API keys. None of these entities are real. 'old' is what a model with an old training cut-off believes; 'new' is what the simulated web search returns today.",
+  "tasks": [
+    {"id": "sim-ceo", "category": "leadership", "volatility": "high", "question": "Who is the current CEO of Acme Robotics?",
+     "keywords": ["acme robotics"], "old": "Dana Whitfield", "new": "Priya Raman", "changed": "2026-08-14",
+     "template": "The current CEO of Acme Robotics is {v}.", "query": "Acme Robotics CEO", "topic": "news"},
+    {"id": "sim-version", "category": "software", "volatility": "high", "question": "What is the latest stable version of the Zephyr web framework?",
+     "keywords": ["zephyr"], "old": "4.2", "new": "5.1", "changed": "2026-10-02",
+     "template": "The latest stable version of the Zephyr web framework is {v}.", "query": "Zephyr web framework latest release", "topic": "general"},
+    {"id": "sim-marathon", "category": "sports", "volatility": "high", "question": "Who won the most recent Northvale Marathon?",
+     "keywords": ["northvale marathon"], "old": "Kenji Mori", "new": "Amara Osei", "changed": "2026-04-19",
+     "template": "The most recent Northvale Marathon was won by {v}.", "query": "Northvale Marathon winner", "topic": "news"},
+    {"id": "sim-rate", "category": "finance", "volatility": "high", "question": "What is the current policy interest rate of the Bank of Eldoria?",
+     "keywords": ["bank of eldoria"], "old": "3.25%", "new": "2.75%", "changed": "2026-09-30",
+     "template": "The Bank of Eldoria's current policy interest rate is {v}.", "query": "Bank of Eldoria policy rate", "topic": "finance"},
+    {"id": "sim-mayor", "category": "politics", "volatility": "medium", "question": "Who is the current mayor of New Arden?",
+     "keywords": ["new arden"], "old": "Marcus Bell", "new": "Elena Voss", "changed": "2026-01-05",
+     "template": "The current mayor of New Arden is {v}.", "query": "New Arden mayor", "topic": "news"},
+    {"id": "sim-model", "category": "ai", "volatility": "high", "question": "What is the newest model released by Orion AI Labs?",
+     "keywords": ["orion ai labs"], "old": "Orion-3", "new": "Orion-4.5", "changed": "2026-11-03",
+     "template": "The newest model released by Orion AI Labs is {v}.", "query": "Orion AI Labs latest model release", "topic": "news"},
+    {"id": "sim-tower", "category": "evergreen", "volatility": "low", "evergreen": true, "question": "In which year was the Harbor Spire in Port Sorell completed?",
+     "keywords": ["harbor spire"], "old": "1987", "new": "1987", "changed": "1987-06-01",
+     "template": "The Harbor Spire in Port Sorell was completed in {v}.", "query": "Harbor Spire Port Sorell completed", "topic": "general"},
+    {"id": "sim-founder", "category": "evergreen", "volatility": "low", "evergreen": true, "question": "Who founded Halcyon Devices?",
+     "keywords": ["halcyon devices"], "old": "Ines Carvalho", "new": "Ines Carvalho", "changed": "2004-03-01",
+     "template": "Halcyon Devices was founded by {v}.", "query": "Halcyon Devices founder", "topic": "general"}
+  ]
+}
