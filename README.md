@@ -10,6 +10,8 @@ each time-sensitive claim is checked against the live web through **Tavily**, an
 under test and from the judge) goes through the **Bifrost** gateway. That lets FreshBench measure an *agent*: its
 freshness, but also its cost, latency, tokens, provider fallbacks and failures.
 
+🎬 **Demo video (2 min, captioned):** [docs/FreshBench_Demo.mp4](docs/FreshBench_Demo.mp4) · captions: [FreshBench_Demo.srt](docs/FreshBench_Demo.srt). It was recorded in offline simulation mode.
+
 ![Stale-Answer Detector](docs/detector.png)
 
 ---

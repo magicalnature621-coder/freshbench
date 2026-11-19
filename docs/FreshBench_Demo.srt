@@ -1,0 +1,91 @@
+1
+00:00:00,318 --> 00:00:05,150
+FreshBench: does your AI agent know the world has changed?
+
+2
+00:00:05,150 --> 00:00:10,159
+AI agents confidently repeat facts that USED to be true: old champions, former CEOs, outdated versions.
+
+3
+00:00:10,159 --> 00:00:14,483
+And most benchmarks freeze their answers, so they go stale too.
+
+4
+00:00:14,483 --> 00:00:19,488
+FreshBench: every LLM call (agents and judge) goes through the Bifrost gateway.
+
+5
+00:00:19,488 --> 00:00:25,494
+Bifrost gives one API for all providers, virtual-key governance, automatic fallbacks, and latency/token/cost telemetry.
+
+6
+00:00:25,494 --> 00:00:34,676
+Every time-sensitive claim is checked against the live web with Tavily. No frozen gold answers.
+
+7
+00:00:34,676 --> 00:00:39,682
+The dashboard. This demo runs in offline SIMULATION mode with a fictional world (no API keys).
+
+8
+00:00:39,682 --> 00:00:45,128
+Stale-Answer Detector: paste any AI answer and ask whether it is still true today.
+
+9
+00:00:45,128 --> 00:00:48,674
+Example: an older model says the CEO of Acme Robotics is Dana Whitfield.
+
+10
+00:00:48,674 --> 00:00:53,534
+The detector extracts claims, searches Tavily with a neutral query, and judges each claim.
+
+11
+00:00:53,534 --> 00:00:58,040
+Verdict: STALE. The answer used to be true, but newer evidence supersedes it.
+
+12
+00:00:58,040 --> 00:01:03,458
+It auto-repairs the answer with the current fact, a source, and an "as of" date.
+
+13
+00:01:03,458 --> 00:01:11,267
+Each claim shows its Tavily query, confidence, explanation, current truth and evidence links.
+
+14
+00:01:11,267 --> 00:01:20,823
+Bifrost call trace: claim extraction, verification and repair, each with provider, tokens, latency and cost.
+
+15
+00:01:20,823 --> 00:01:25,829
+The benchmark: the same models inside 3 agent designs, closed_book, search_rag and guarded.
+
+16
+00:01:25,829 --> 00:01:31,754
+Closed-book agents go stale. Grounded agents stay fresh. FreshBench measures the cost of freshness.
+
+17
+00:01:31,754 --> 00:01:38,635
+Leaderboard: fresh rate, stale rate, cost per fresh answer, latency, tokens, Bifrost fallbacks, errors.
+
+18
+00:01:38,635 --> 00:01:44,933
+Freshness vs cost: top-left is best. Stale rate by topic shows where agents fall behind.
+
+19
+00:01:44,933 --> 00:01:53,474
+Drill down into any question to compare every agent's answer, cost, latency and the route Bifrost used.
+
+20
+00:01:53,474 --> 00:01:58,004
+Run new benchmarks from the UI: pick agents, models and a Bifrost fallback chain.
+
+21
+00:01:58,004 --> 00:02:03,855
+Every agent run is routed through Bifrost and judged by the same fixed Stale-Answer Detector.
+
+22
+00:02:03,855 --> 00:02:09,699
+Also available as a CLI: check, run, leaderboard, calibrate. Verified end to end against the real Bifrost container.
+
+23
+00:02:09,699 --> 00:02:14,706
+FreshBench: because "correct" has an expiry date. Code on GitHub.
